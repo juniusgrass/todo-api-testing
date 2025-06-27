@@ -2,8 +2,6 @@ name: Run Postman tests with Newman
 
 on:
   push:
-    paths:
-      - method-1-postman-newman/**
   workflow_dispatch:
 
 jobs:
